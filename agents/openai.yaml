@@ -1,0 +1,13 @@
+interface:
+  display_name: "Talordata SERP MCP"
+  short_description: "Use Talordata MCP with valid Talor SERP schemas."
+  default_prompt: "Use $talordata-serp-mcp to choose the correct Talordata SERP schema for my search task."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "talordata"
+      description: "Talordata MCP server that exposes structured SERP API tools."
+
+policy:
+  allow_implicit_invocation: true
