@@ -35,7 +35,7 @@ Use this file to decide which parameters are safe to default and which ones requ
 ## Safe Defaults
 
 - Default engine family: Google.
-- Default general schema: `google_web` when a web result is enough.
+- Default general schema: `google` when a web result is enough.
 - Default Google localization may follow schema defaults (`gl=us`, `hl=en`) when region/language is not material. State defaults when reporting results.
 - Default Bing/Yandex/DuckDuckGo schema: `bing`, `yandex`, or `duckduckgo` only when the user asks for that engine or fallback is allowed.
 - Default output: structured JSON or tables for analysis; concise source-backed summary for research.

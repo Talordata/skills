@@ -109,7 +109,8 @@ Do not use:
 
 Allowed automatic fallback:
 
-- `google_web` or `google/web` -> `bing` or `bing/search`
+- `google` -> `google_web`, then `bing`
+- `google_web` -> `google`, then `bing`
 - `google_news` -> `bing_news`
 - `google_images` -> `bing_images`
 - `google_videos` -> `bing_videos`

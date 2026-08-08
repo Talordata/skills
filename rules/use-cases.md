@@ -6,10 +6,9 @@ Use this file to choose the right schema and output pattern for common tasks.
 
 | User task | Primary schema | Secondary/fallback |
 | --- | --- | --- |
-| General public web research | `google_web` | `bing`, `duckduckgo` |
-| SEO ranking check | `google_web` | `bing` |
-| Latest news / monitoring | `google_news` | `bing_news` |
-| Brand or competitor monitoring | `google_web` + `google_news` | `bing`, `bing_news` |
+| General public web research | `google` | `bing`, `duckduckgo` |
+| SEO ranking check | `google` | `bing` |
+| Brand or competitor monitoring | `google` + `google_news` | `bing`, `bing_news` |
 | Image search | `google_images` | `bing_images` |
 | Video search | `google_videos` | `bing_videos` |
 | Local business / maps | `google_maps` or `google_local` | `bing_maps` |

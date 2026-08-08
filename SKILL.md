@@ -22,7 +22,9 @@ Current Talor project schema source of truth: `api/talor-pay-package-view/config
 
 | Intent | Prefer Talor schema key |
 | --- | --- |
-| General web search | `google_web`, fallback `bing` |
+| General web search | `google`, fallback `google_web`, then `bing` |
+| Google Search | `google`, fallback `google_web`, then `bing` |
+| Google Web search | `google_web`, fallback `google`, then `bing` |
 | News or public-opinion monitoring | `google_news`, fallback `bing_news` |
 | Image search | `google_images`, fallback `bing_images` |
 | Video search | `google_videos`, fallback `bing_videos` |
